@@ -1,0 +1,602 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+ font-family: "Bebas Neue", sans-serif;
+    
+}
+.body{
+    background:#f4f1ee;
+
+    font-family:Arial, Helvetica, sans-serif;
+   
+     
+}
+
+
+/* navigation section */
+.nav1{
+    display: flex;
+    height: 80px;
+   
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 2px 2px rgba(0,0,0,.1);
+    background-color: white;
+    box-shadow:0 0 10px gray;
+}
+.leftS{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo{
+    margin-left: 20px;
+    color: brown;
+    font-weight:bolder;
+    height:20px;
+    width: 20px;
+}
+.radio1{
+    display: flex;
+    gap: 10px;
+    color: rgb(119, 115, 115);
+    cursor: pointer;
+}
+.radio1:hover{
+    color: rgb(119, 115, 115);
+ transform:scale(1.1);
+
+}
+.radio2{
+    display: flex;
+    gap: 10px;
+    color: rgb(119, 115, 115);
+ cursor: pointer;
+}
+.radio2:hover{
+    width: 10px;
+    color: rgb(119, 115, 115);
+ transform:scale(1.1);
+ 
+ 
+}
+
+
+.inputtype1{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+    border-radius: 30px;
+    width: 300px;
+    background: rgb(249, 249, 246);
+    margin-right: 200px;
+   
+     box-shadow: 2px 2px 5px rgb(212, 206, 206)
+}
+.inputtype1 a{
+    text-decoration: none;
+    color:  rgb(159, 154, 154);
+}
+.inputtype1:hover{
+    box-shadow: 2px 2px 5px rgb(174, 169, 169);
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.rightS{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 80px;
+}
+.rightS1:hover{
+   
+    transform: scale(1.1);
+
+}
+.rightS a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+.rightS i{
+    margin-right: 8px;
+}
+.search{
+    font-size: 25px;
+    color: rgb(120, 19, 19);
+    cursor: pointer;
+}
+/* navigation section        ends    */
+
+
+.menu1{
+   color:brown;
+   height: 35px;
+   width:32px;
+   font-size: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+     border-radius: 20%;
+}
+.menu1:hover{
+    transform: scale(1.1);
+     box-shadow: 2px 2px 5px rgb(115, 113, 113);
+}
+
+/* CARD SECTION START */
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    margin-top: 15px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    text-align: center;
+
+}
+
+.card img{
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.card h3{
+    margin-top: 10px;
+}
+
+.card button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    transform:scale(1.1);
+}
+.card button:hover{
+    box-shadow: 2px 2px 10px brown;
+    transform:scale(0.9);
+}
+
+/* CARD SECTION END'S */
+
+/* EXPLORE BTN */
+.BTN{
+    display: flex;
+    justify-content: center;
+}
+.exploreBTN{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    font-size:larger;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content:center;
+    background-color: rgb(150, 41, 41);
+    color: white;
+     margin-top: 30px;
+    padding:  10px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgb(133, 127, 127);
+}
+.exploreBTN:hover{
+    transform: scale(1.1);
+   box-shadow: 2px 2px 10px brown;
+}
+
+/* EXPLORE BTN END'S*/
+
+
+.iframeC{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+  
+  
+}
+
+.LastMenu{
+   display: flex;
+   justify-content: space-evenly;
+   
+    color: white;
+    background-color: rgb(63, 60, 60);
+    margin-top: 30px;
+   height:200px;
+   width: 100%;
+
+}
+.list1
+{
+    
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: normal;
+  
+
+    margin-top: 50px;
+}
+.list2{
+    margin-top: 50px;
+}
+.list20:img{
+    height: 10px;
+    width: 50px;
+}
+.list20:hover{
+    transform: scale(1.1);
+     box-shadow: 2px 2px 5px rgb(81, 78, 78);
+}
+
+
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+     background-color: rgb(63, 60, 60);
+   height: 120px;
+   width: 100%;
+   box-shadow:1px 1px 5px rgb(0, 0, 0);
+   
+}
+ .footer2{
+    margin-top: 40px;
+    color: brown;
+ }
+
+
+.footer3{
+    margin-top: 40px;
+    color: white;
+}
+.footer4 i{
+    color: rgb(227, 215, 215);
+    margin-top: 40px;
+    font-size: 28px;
+    padding: 6px;
+    border-radius: 100%;
+      
+}
+.footer4 i:hover{
+    transform:scale(1.3);
+    box-shadow: 2px 2px 5px gray;
+}
+/*                                     F R O N T   P A G E   E N D   H E R E                                       */
+/*                                     F R O N T   P A G E   E N D   H E R E                                       */
+/*                                     F R O N T   P A G E   E N D   H E R E                                       */
+/*                                     F R O N T   P A G E   E N D   H E R E                                       */
+
+
+/*                                    S E C O N D   P A G E   S T A R T   H E R E                                       */
+/*                                    S E C O N D   P A G E   S T A R T   H E R E                                       */
+/*                                    S E C O N D   P A G E   S T A R T   H E R E                                       */
+/*                                    S E C O N D   P A G E   S T A R T   H E R E                                       */
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f1ee;
+    padding:14px;
+}
+
+/* ========================= */
+/* Search */
+/* ========================= */
+
+.search-wrapper{
+    display:flex;
+    justify-content:center;
+    margin-top:80px;
+    margin-bottom:40px;
+}
+
+.search-bar{
+    width:870px;
+    height:60px;
+    background:#fff;
+    border-radius:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 22px;
+
+    box-shadow:
+    0 2px 4px rgb(159, 117, 117),
+    0 8px 20px rgb(158, 113, 113);
+}
+
+.search-left{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex:1;
+}
+
+.search-left i{
+    color:#b4b4b4;
+    font-size:18px;
+}
+
+.search-left input{
+    border:none;
+    outline:none;
+    width:100%;
+    font-size:18px;
+    color:#555;
+}
+
+.search-left input::placeholder{
+    color:#c2c2c2;
+}
+
+.detect-location{
+    color:#6e3f31;
+    font-size:15px;
+    font-weight:500;
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    cursor:pointer;
+}
+
+/* ========================= */
+/* Card */
+/* ========================= */
+
+.store-card{
+    width:100%;
+    background:#fff;
+    margin-top: 30px;
+    border-radius:8px;
+
+    padding:26px;
+
+    box-shadow:
+    0 2px 8px rgb(86, 84, 84);
+}
+
+.card-top{
+    display:flex;
+    justify-content:space-between;
+}
+
+.store-details{
+    width:90%;
+}
+
+.store-details h1{
+    font-size:24px;
+    font-weight:800;
+    color:#000;
+    margin-bottom:10px;
+}
+
+.timing{
+    font-size:15px;
+    font-weight:500;
+    margin-bottom:12px;
+}
+
+.address{
+    font-size:15px;
+    color:#556170;
+    line-height:1.7;
+    max-width:1100px;
+}
+
+.open{
+    margin-top:12px;
+    color:#67b500;
+    font-weight:700;
+    font-size:15px;
+}
+
+.distance{
+    margin-top:10px;
+    font-size:15px;
+    color:#000;
+}
+
+/* ========================= */
+/* Right Buttons */
+/* ========================= */
+
+.action-icons{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+}
+
+.icon-btn{
+    width:48px;
+    height:48px;
+
+    border-radius:50%;
+    background:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,.08);
+
+    color:#6e3f31;
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+/* ========================= */
+/* Divider */
+/* ========================= */
+
+.divider{
+    height:1px;
+    background:#ececec;
+
+    margin-top:22px;
+    margin-bottom:22px;
+}
+
+/* ========================= */
+/* Footer */
+/* ========================= */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.service{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+
+    color:#6e3f31;
+    font-weight:600;
+    font-size:15px;
+}
+
+.service i{
+    font-size:14px;
+}
+
+
+/* n e a r b y   s t o r e   e n d ' s  */
+/* n e a r b y   s t o r e   e n d ' s  */
+
+/* n e a r b y   s t o r e   e n d ' s  */
+
+/* n e a r b y   s t o r e   e n d ' s  */
+.loginbody{
+    background-image:url("Brew Leaf Burgers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+      height: 100vh; 
+
+
+
+}
+.modal{
+  
+    display: flex;
+    
+   
+    width:100%;
+    height:100%;
+
+ 
+    justify-content:center;
+    align-items:center;
+
+    
+}
+
+.modal-content{
+    width:500px;
+    background:#f5efe4;
+    box-shadow: 10px 10px 150px rgb(0, 0, 0);
+    padding:40px;
+    
+    border-radius:10px;
+
+    text-align:center;
+
+   
+}
+
+.close{
+    position:absolute;
+    top:15px;
+    right:20px;
+
+    font-size:30px;
+    cursor:pointer;
+}
+
+.phone-input{
+    display:flex;
+    align-items:center;
+
+    border-bottom:1px solid gray;
+
+    margin:25px 0;
+    padding-bottom:10px;
+}
+
+.phone-input input{
+    border:none;
+    outline:none;
+    background:transparent;
+
+    margin-left:10px;
+    width:100%;
+}
+
+.modal-content button{
+    width:100%;
+    padding:15px;
+
+    border:none;
+    border-radius:8px;
+
+    margin-top:15px;
+    cursor:pointer;
+}
+
+.divider{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin:20px 0;
+}
+
+.divider span{
+    flex:1;
+    height:1px;
+    background:#999;
+}
+
+.google-btn{
+    background:white;
+    border:1px solid #ddd;
+ box-shadow: 0px 0px 110px rgb(156, 149, 149);
+}
+
+ .bactbBTN{
+    
+    cursor: pointer;
+ }
